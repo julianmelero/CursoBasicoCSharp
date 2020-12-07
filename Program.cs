@@ -22,6 +22,8 @@ namespace CursoBasicoCSharp
             Song song = new Song();
             
             song.Title = "My title";
+            song.Play();
+            Console.ReadKey();
 
         }
     }

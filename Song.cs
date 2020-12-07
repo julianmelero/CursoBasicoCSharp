@@ -4,14 +4,14 @@ using System.Text;
 
 namespace CursoBasicoCSharp
 {
-    class Song
+    class Song : IMedia
     {
         public long Second { get; set; }
         public string Title { get; set; }
 
         public void Play()
         {
-
+            Console.WriteLine($"Playing {Title}!");
         }
     }
 }

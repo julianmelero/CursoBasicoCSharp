@@ -6,7 +6,10 @@ namespace CursoBasicoCSharp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int number = 10;
+            double numberDecimal = 0.0d;
+            bool yayOrnay = true;
+            string hello = "This is a text!"
         }
     }
 }
